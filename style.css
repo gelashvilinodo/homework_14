@@ -1,0 +1,35 @@
+.box {
+    margin: auto;
+    width: 800px;
+    padding-block: 25px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleStyles {
+    font-size: 38px;
+    font-weight: 900;
+    color: red;
+}
+
+.buttonStyles {
+    padding: 10px 15px;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
